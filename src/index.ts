@@ -1,3 +1,6 @@
+declare const global: { mm: object; };
 
-export default function awx25(param1: string, param2: string) {
+export default function get<T>(key: string, default_value?: T) {
+	const mm = global.mm;
+	return (mm && mm[key] as T) || default_value;
 }
