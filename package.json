@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/awx000025",
-	"version": "1.0.202004031306",
+	"version": "1.0.202004170929",
 	"description": "获取global存储",
 	"scripts": {
 		"test": "tsc -w",
